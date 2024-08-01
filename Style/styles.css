@@ -124,14 +124,7 @@ padding: 16px 40px 16px 40px;
     gap: 2%;
     margin-left: 3%;
 }
-.bac{
-    /* width: 100%;
-    height: 100%; */
-  background-image: url(..//images/Images\ 2.png);
-  background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
-}
+
 
 .image-container {
     position: relative;
