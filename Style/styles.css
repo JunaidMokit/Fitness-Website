@@ -33,7 +33,7 @@ nav{
     
 }
 .position-fit{
-    margin-right: 40%;
+    margin-left: 5%;
 }
 /* .navbar{
     justify-content: space-between;
@@ -44,6 +44,7 @@ nav{
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    
 }
 .home-design{
     background-color: chocolate;
