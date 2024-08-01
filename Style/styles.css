@@ -5,8 +5,8 @@
 
 body{
     color: white;
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     background-color: black;
 }
 
@@ -26,11 +26,14 @@ nav{
 }
 .display-flex{
     display: flex;
-  
+   
 }
 .inner-flex{
     display: flex;
-    justify-content: space-around;
+    
+}
+.position-fit{
+    margin-right: 40%;
 }
 /* .navbar{
     justify-content: space-between;
@@ -53,6 +56,7 @@ nav{
 .inner-nav-design{
     border: 1px solid white;
    border-radius: 25px;
+ 
    margin-right: 3%;
 
 }
@@ -69,7 +73,10 @@ nav{
     display: none;
 }
 .header-part{
-    margin-top: 0 auto;
+    max-width: 1440px;
+    margin: 0 auto;
+    /* background-color: aliceblue; */
+    margin-left: 8%;
 }
 /* First head section */
 
