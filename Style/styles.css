@@ -5,8 +5,7 @@
 
 body{
     color: white;
-    /* margin: 0;
-    padding: 0; */
+    
     background-color: black;
 }
 
@@ -33,7 +32,7 @@ nav{
     
 }
 .position-fit{
-    margin-left: 5%;
+    margin-left: 0;
 }
 /* .navbar{
     justify-content: space-between;
