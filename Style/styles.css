@@ -95,7 +95,7 @@ nav{
 .first-section{
     max-width: 1440px;
     margin: 0 auto;
-    background-color: olive;
+    /* background-color: olive; */
 }
 
 .first-head{
