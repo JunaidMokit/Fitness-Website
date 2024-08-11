@@ -350,7 +350,7 @@ td {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 .bmi-head{
     margin-left: 30%;
