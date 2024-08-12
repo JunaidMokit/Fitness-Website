@@ -466,42 +466,42 @@ input, select {
     overflow: visible;
 }
 .td-1{
-    background-image: url('/images/trainer1.png');
+    background-image: url('../images/trainer1.png');
     background-size: cover;
     background-position: center;
     position: relative;
 
 }
 .td-2{
-    background-image: url('/images/trainer2.png');
+    background-image: url('../images/trainer2.png');
     background-size: cover;
     background-position: center;
     position: relative;
 
 }
 .td-3{
-    background-image: url('/images/trainer3.png');
+    background-image: url('../images/trainer3.png');
     background-size: cover;
     background-position: center;
     position: relative;
 
 }
 .td-4{
-    background-image: url('/images/trainer4.png');
+    background-image: url('../images/trainer4.png');
     background-size: cover;
     background-position: center;
     position: relative;
 
 }
 .td-5{
-    background-image: url('/images/trainer5.png');
+    background-image: url('../images/trainer5.png');
     background-size: cover;
     background-position: center;
     position: relative;
 
 }
 .td-6{
-    background-image: url('/images/trainer6.png');
+    background-image: url('../images/trainer6.png');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -687,6 +687,10 @@ input, select {
     justify-content:initial;
     
 
+
+}
+.l-f{
+    margin-left: 20%;
 
 }
       
