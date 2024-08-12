@@ -353,6 +353,8 @@ td {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    height: 380px;
+    
   
     margin: 0 auto;
 }
@@ -437,6 +439,124 @@ input, select {
     color: #fff;
 }
 
+/* Trainer part */
+
+.tr-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.trainer-data{
+    width: 326px;
+   height: 272px;
+   border-radius: 20px;
+} 
+.traner-details{
+    width: 73%;
+    margin: 0 auto;
+    display: grid;
+    background-color: #333;
+    grid-template-columns: repeat(3,1fr) ;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    
+}
+.trainer-title{
+    overflow: visible;
+}
+.td-1{
+    background-image: url('/images/trainer1.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.td-2{
+    background-image: url('/images/trainer2.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.td-3{
+    background-image: url('/images/trainer3.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.td-4{
+    background-image: url('/images/trainer4.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.td-5{
+    background-image: url('/images/trainer5.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.td-6{
+    background-image: url('/images/trainer6.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+   
+
+}
+.trainer-position {
+    position: absolute;
+  top: 80%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white; /* Adjust text color as needed */
+  font-size: 24px; /* Adjust text size as needed */
+  text-align: center;
+}
+.t-h{
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+}
+.t-p{
+    font-size: .8rem;
+}
+.trainer-h{
+   margin-left: 43%;
+   font-size: 3rem;
+   
+
+}
+.p-tt{
+    margin-left: 30%;
+
+}
+.f-list{
+    list-style: none;
+    margin-left: 0;
+    
+}
+.footer-d{
+    /* width: 1440px;
+    margin: 0 auto; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+
+}
+.footer-section{
+    /* width: 1440px;
+    margin: 0 auto; */
+    margin-top: 40px;
+    background-color: #333;
+}
+.l-f{
+    margin-left: 45%;
+}
 
 
 
@@ -524,6 +644,8 @@ input, select {
     .bmi-div{
         display: grid;
         gap: 60px;
+        height: 780px;
+       
 
     }
     .bmi-head{
@@ -546,9 +668,28 @@ input, select {
 
    }
     
-
-     
+   .traner-details{
     
+    display: grid;
+   
+    grid-template-columns: repeat(1,1fr) ;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    
+}
+.traner-details{
+    width: 84%;
+}
+.footer-d{
+    display: grid;
+    justify-content:initial;
+    
+
+
+}
+      
 }
 
 
