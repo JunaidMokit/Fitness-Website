@@ -288,6 +288,7 @@ padding: 16px 40px 16px 40px;
 }
 
 /* BMI Calculator Design */
+/* BMI Calculator Design */
 .BMI-details{
     /* background-color: #1c1c1e; */
     font-family: Arial, sans-serif;
@@ -342,6 +343,8 @@ td {
 .bmi-section{
     /* padding: 10%; */
     max-width: 1440px;
+   
+
     margin: 0 auto;
     margin-top: 10%;
 }
@@ -350,12 +353,13 @@ td {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /* margin: 0 auto; */
+  
+    margin: 0 auto;
 }
 .bmi-head{
     margin-left: 30%;
     font-size: 4rem;
-   
+
 }
 .p5{
     margin-left: 30%;
@@ -400,7 +404,7 @@ input, select {
 }
 #idsex{
     width: 33%;
-   
+
 }
 .input-size{
     /* width: 282px; */
@@ -432,7 +436,6 @@ input, select {
     font-style:large;
     color: #fff;
 }
-
 
 
 
@@ -521,16 +524,28 @@ input, select {
     .bmi-div{
         display: grid;
         gap: 60px;
-        
+
     }
     .bmi-head{
         margin-left: 1%;
         font-size: 3rem;
-       
+
     }
     .p5{
         margin-left: 1%;
     }
+    .BMI-calculator{
+        margin-left: 10%;
+    }
+    #idsex{
+        width: 36%;
+    
+    }
+   .active-size{
+    width: 75%;
+
+   }
+    
 
      
     
