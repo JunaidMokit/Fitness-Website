@@ -232,13 +232,17 @@ padding: 16px 40px 16px 40px;
 
 .img-shape{
     border-radius: 50%;
-    margin-left: 17%;
+    margin-left: 0%;
 }
 .all-card{
     margin-top: 7%;
     display: flex;
     margin-left: 7%;
-    gap: 9rem;
+    gap: 8rem;
+    
+}
+.ex-one{
+    /* background-color: aqua; */
     
 }
 .p-c{
@@ -248,7 +252,7 @@ padding: 16px 40px 16px 40px;
     margin-left: 0%;
 }
 .mov{
-    margin-left: 30%;
+    margin-left: 40%;
 }
 
 /* Running part */
@@ -678,6 +682,9 @@ input, select {
     border-radius: 20px;
     position: relative;
     
+}
+.trainer-data{
+   width: 98%;
 }
 .traner-details{
     width: 84%;
