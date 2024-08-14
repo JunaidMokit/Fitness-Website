@@ -930,6 +930,18 @@ form {
 }
       
 }
+@media screen and (min-width:577px) and (max-width:992px) {
+    .all-card {
+        display: grid;
+        grid-template-columns: 300px 300px;
+    }
+    .bmi-div{
+       flex-direction: column;
+       height: 720px;
+    }
+ 
+    
+}
 
 
 
