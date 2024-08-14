@@ -36,7 +36,7 @@
          <!-- First header -->
 
 
-        <section class="first-section">
+        <section class="first-section new-bc">
             <div class="first-head">
                 <div class="first-container">
                     <h1 class="second-head">
@@ -134,6 +134,69 @@
 
 
         </section>
+        <!-- Challenge parrt -->
+
+        <section class="food-section">
+
+            <h1 class="food-header ">Change Your Food Habit </h1>
+            <p class="p-11">Food habits are the choices and patterns of eating shaped by culture,
+                 society, and personal preferences, impacting health and lifestyle.</p>
+            <div class="all-habit">
+                <div  class="habit-part display-food">
+                    <div>
+                        <div class="food-details">
+                            <h3 class="h-d">1.Avoid Junk Food</h3>
+                            <p >Avoiding junk food helps maintain better health by <br> reducing the intake of
+                                 unhealthy fats, sugars, and <br> additives. Opting for nutritious alternatives
+                                  supports <br> long-term well-being and energy levels.</p>
+
+                        </div>
+                    </div>
+                    <div class="add-img">
+                        <img class="b-img" src="images/bg.jpg" alt="">
+                       
+                    </div>
+                   
+                    
+                </div>
+
+                <div class=" habit-part " id="good-food">
+                    <div class="add-img">
+                        <img class="b-img" src="images/gd.jpg" alt="">
+                    </div>
+                    <div>
+                        <h3 class="h-d" >2.Eat Good Food Regularly</h3>
+                        <p>
+                            Eating good food regularly nourishes <br> the body with essential nutrients,
+                             promoting overall health and vitality. <br> Consistent healthy eating
+                              supports sustained energy and well-being.
+
+                        </p>
+                    </div>
+                </div>
+
+               
+                    <div  class="habit-part display-food">
+                        <div>
+                            <div class="food-details">
+                                <h3 class="h-d">3.Drink Water Regularly</h3>
+                                <p>Avoiding junk food helps maintain better health by reducing the intake of
+                                     unhealthy fats, sugars, and <br> additives. Opting for nutritious alternatives
+                                      supports <br> long-term well-being and energy levels.</p>
+    
+                            </div>
+                        </div>
+                        <div class="add-img">
+                            <img class="b-img" src="images/wt.jpg" alt="">
+                           
+                        </div>
+                       
+                        
+                    </div>
+
+            </div>
+           
+        </section>
 
         <!-- Running Section -->
 
@@ -203,44 +266,38 @@
             </table>
 
          </div>
-
+<!-- 
           <div class="BMI-calculator">
-            <h2>Calculate your BMI</h2>
-            <p>We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym.</p>
-
-
-            <form class="shape-form" action="">
-                <div class="input-shape">
-                    <input class="input-size" type="text" placeholder="Height/cm">
-                    <input class="input-size" type="text" placeholder="Weight/kg">
+            -->
+          <div class="bmi-container">
+            <h1 class="h-bmi-c">Calculate your BMI</h1>
+            <p class="p-7">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            <form class="bmi-form">
+                <div class="input-group-update ">
+                    <input class="input-select input-s" type="text" placeholder="Height/cm">
+                    <input class="input-select input-s" type="text" placeholder="Weight/kg">
                 </div>
-
-                <div class="input-shape">
-                    <input class="input-size" type="text" placeholder="Age">
-                    <select class="input-size" id="idsex" name="" id="">
-                        <option value="">Sex</option>
-                        <option value="">Male</option>
-                        <option value="">Female</option>
+                <div class="input-group-update ">
+                    <input class="input-select input-s" type="text" placeholder="Age">
+                    <select class="input-select select-s">
+                        <option value="" disabled selected>Sex</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
                     </select>
                 </div>
-                <div class="form-group">
-                    <select class="active-size">
-                        <option value="" disabled selected>Select an activity factor</option>
-                        <option value="sedentary">Sedentary</option>
-                        <option value="active">Active</option>
-                        <option  value="very-active">Very Active</option>
-                    </select>
-                </div>
-                <div>
-                    <button type="submit" class="calculate-button ">Calculate</button>
-                </div>
-
-
-
+                <select class="full-width input-select select-s">
+                    <option value="" disabled selected>Select an activity factor</option>
+                    <option value="1.2">Sedentary </option>
+                    <option value="1.375">Lightly active </option>
+                    <option value="1.55">Moderately active </option>
+                    <option value="1.725">Very active </option>
+                    <option value="1.9">Super active </option>
+                </select>
+                <button class="button-bmi-u " type="submit">Calculate</button>
             </form>
+        </div>
 
-
-          </div>
           </div>  
       </section>
 
@@ -305,7 +362,7 @@
     <footer class="footer-section">
       <div class="footer-d">
         <div>
-            <h1>Fitness</h1>
+            <h1 class="head-color">Fitness</h1>
             <p class="p-c">We believe fitness should be accessible to everyone, <br>everywhere, regardless of income or access to a gym. With <br> hundreds of professional workouts.</p>
         </div>
 
@@ -335,7 +392,7 @@
 
       </div>
       <hr/>
-      <h4 class="l-f p-c">All right reserved @Fitness 2024</h4>
+      <p class="l-f p-c">All right reserved @Fitness 2024</p>
       
 
     </footer>

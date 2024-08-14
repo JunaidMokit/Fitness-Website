@@ -7,6 +7,7 @@ body{
     color: white;
     
     background-color: black;
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
     /* padding: 3%; */
 }
 img{
@@ -19,15 +20,12 @@ main{
     max-width: 1440px;
     margin: 0 auto;
 }
-.first-container{
-    /* width: 50%;
-     background-color: 
-    aquamarine; */
-}
+
 
 /* Nav decoration */
 nav{
     background-color: black;
+    
 }
 .nav-link{
     text-decoration: none;
@@ -47,14 +45,11 @@ nav{
     
 }
 .position-fit{
-    margin-left: 10%;
+    margin-left: 5%;
     
     
 }
-/* .navbar{
-    justify-content: space-between;
-    align-items: center;
-} */
+
 .navbar{
     max-width: 1440px;
     margin: 0 auto;
@@ -83,7 +78,7 @@ nav{
     color: chocolate;
     font-size: xx-large;
     font-style: italic;
-    margin-left: 3%;
+    /* margin-left: 3%; */
 }
 .menu-button{
     color: white;
@@ -95,13 +90,15 @@ nav{
     max-width: 1440px;
     margin: 0 auto;
     background-color: aliceblue;
-    margin-left: 11.8%;
+    /* margin-left: 11.8%; */
 }
 .head-l{
     margin-left: 1%;
 }
 /* First head section */
-
+.new-bc{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
 .first-section{
     max-width: 1440px;
     margin: 0 auto;
@@ -110,7 +107,7 @@ nav{
 
 .first-head{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     /* gap: 10px; */
 }
 .second-head{
@@ -180,11 +177,11 @@ padding: 16px 40px 16px 40px;
 .inner-div{
     position: absolute;
     width: 150px;
-    height: 100px;
-    margin-left: 20%;
+    height: 70px;
+    /* margin-left: 20%; */
     padding: 2%;
-    top: 20%; 
-    left: 70%; 
+    top: 30%; 
+    left: 95%; 
     transform: translate(-50%, -50%); 
     background: rgba(255, 255, 255, 0.1);
     color: white;
@@ -195,12 +192,13 @@ padding: 16px 40px 16px 40px;
 .inner-dev-more{
     display: flex;
     align-items: center;
+    justify-content: space-around;
    
 }
 .inner-div-two{
     position: absolute;
     width: 150px;
-    height: 100px;
+    height: 70px;
     margin-left: 20%;
     padding: 2%;
     top: 80%; 
@@ -258,7 +256,7 @@ padding: 16px 40px 16px 40px;
 /* Running part */
 .run-container{
     width:60% ;
-    height: 300px;
+    /* height: 5000px; */
     /* margin: 0 auto; */
     
     background-color: dimgray;
@@ -266,6 +264,7 @@ padding: 16px 40px 16px 40px;
     display: flex;
     border-radius:10px ;
     margin-top: 20px;
+    padding: 20px;
     
 }
 .run-img{
@@ -323,13 +322,16 @@ table {
    thead {
     /* background-color:; */
 }
+th{
+    border:1px solid white ;
+}
 
 
  td{
-    border: 1px solid wheat;
+    border: 1px solid white;
  }
  tr{
-    border: 1px solid wheat;
+    border: 1px solid white;
  }
 
 
@@ -355,7 +357,7 @@ td {
 .bmi-div{
     background-color: #2c2c2e ;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     height: 380px;
     
@@ -367,6 +369,91 @@ td {
     font-size: 4rem;
 
 }
+/* bmi update calcultor */
+.bmi-form{
+    padding: 15px;
+}
+.bmi-container {
+    background-color: #2c2c2e;
+   
+    
+    /* padding: 30px; */
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); */
+    text-align: center;
+    max-width: 30%;
+   
+    width: 100%;
+    /* padding: 15px; */
+}
+
+.h-bmi-c {
+    margin-left: 2px;
+    /* margin-bottom: 0px; */
+    /* font-size: 1.5rem; */
+    margin-right: 50%;
+}
+
+.p-7 {
+    font-size: 0.9rem;
+    margin-right: 28%;
+    margin-bottom: 25px;
+    color: #cccccc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-group-update {
+    display: flex;
+    gap: 15px;
+}
+
+.input-select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3e3e3e;
+    color: white;
+    font-size: 0.9rem;
+    width: 100%; 
+}
+
+.input-s {
+    flex: 1; 
+}
+
+.select-s {
+    flex: 1; 
+}
+
+.full-width {
+    width: 100%; 
+}
+
+.button-bmi-u {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff5722;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 40%; 
+}
+
+/* button:hover {
+    background-color: #e64a19;
+} */
+
+
+
+
+
+
 .p5{
     margin-left: 30%;
     /* align-items: center; */
@@ -376,30 +463,8 @@ td {
 .BMI-details{
     margin-left: 10%;
 }
-input, select {
-    /* height: 30px; */
-}
-.form-input {
-    /* width: 50%; */
-    /* padding: 10px; 
-    border: 1px solid #444;
-    border-radius: 5px;
-    background-color: #333;
-    color: #fff; */
-}
-.form-input-p{
-    /* width: 25%;
-    padding: 10px;
-    border: 1px solid #444;
-    border-radius: 5px;
-    background-color: #333;
-    color: #fff; */
 
-}
-.shape-form{
-    /* display: grid;
-    /* grid-template-columns: repeat(1,1fr); */
-} 
+
 .input-shape{
     display: flex;
     gap: 10px;
@@ -515,7 +580,7 @@ input, select {
 .trainer-position {
     position: absolute;
   top: 80%;
-  left: 20%;
+  left: 28%;
   transform: translate(-50%, -50%);
   color: white; /* Adjust text color as needed */
   font-size: 24px; /* Adjust text size as needed */
@@ -562,6 +627,113 @@ input, select {
     margin-left: 45%;
 }
 
+/* Challenging part  */
+.add-img{
+    width: 30%;
+}
+.b-img{
+    width: 100%;
+    height: 80%;
+  
+
+    border-radius: 20px;
+}
+.habit-part{
+    border-radius: 20px;
+    background-color: #444;
+    width: 60%;
+    /* height: 250px; */
+    margin-top: 30px;
+   
+}
+
+.display-food{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.food-section{
+    /* width: 1440px; */
+    /* margin: 0 auto; */
+    margin-bottom: 50px;
+    /* background-color: #333; */
+
+}
+.p-11{
+    margin-left: 20%;
+}
+.all-habit{
+    /* background-color: #b1b1b1; */
+    border-radius: 30px;
+   margin-left: 23%;
+    
+}
+.food-details{
+    margin-left: 30%;
+}
+#good-food{
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-between;
+}
+.h-d {
+    font-size: 1.5rem;
+    color: #ff6347;
+    text-align: center;
+    position: relative;
+    animation: slideIn 1s ease-in-out, colorChange 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes colorChange {
+    0% {
+      color: white;
+    }
+    100% {
+      color:orangered;
+    }
+  }
+  
+  .food-header {
+    font-size: 2.5em;
+    color: #ff6347;
+    text-align: center;
+    position: relative;
+    animation: slideIn 2s ease-in-out, colorChange 4s ease-in-out infinite alternate;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes colorChange {
+    0% {
+      color: #ff6347;
+    }
+    100% {
+      color: #32cd32;
+    }
+  }
+  
+  
+
 
 
 
@@ -593,7 +765,7 @@ input, select {
    
     position: static;
     width: 170px;
-    height: 26px;
+    height: 45px;
     flex-direction: row;
     
     align-items: flex-start;
@@ -601,15 +773,15 @@ input, select {
     }
     .inner-div{
     
-        width: 130px;
-        height: 80px;
+        /* width: 130px;
+        height: 80px; */
         top: 25%; 
-        left: 50%;
+        left: 75%;
 
     }
     .inner-div-two{
-        width: 130px;
-        height: 80px;
+        /* width: 130px;
+        height: 80px; */
         margin-left: 30%;
         top: 80%; 
         left: -5%; 
@@ -663,6 +835,19 @@ input, select {
     .BMI-calculator{
         margin-left: 10%;
     }
+    .bmi-container {
+       
+        text-align: center;
+        max-width: 100%;
+        
+    }
+    .h-bmi-c{
+        margin-right: 40%;
+    }
+    .p-7{
+
+
+    }
     #idsex{
         width: 36%;
     
@@ -683,6 +868,13 @@ input, select {
     position: relative;
     
 }
+.trainer-h{
+    margin-left: 10%;
+
+}
+.p-tt{
+    margin-left: 10%;
+}
 .trainer-data{
    width: 98%;
 }
@@ -699,6 +891,36 @@ input, select {
 .l-f{
     margin-left: 20%;
 
+}
+.habit-part{
+    display: grid;
+    justify-content: space-around;
+}
+.b-img{
+    width: 100%;
+    height: 100%; 
+}
+.add-img{
+    width: 100%;
+}
+.habit-part{
+   
+    width: 100%;
+    /* height: 250px; */
+}
+.all-habit{
+    /* background-color: #b1b1b1; */
+    border-radius: 30px;
+   margin-left: 0;
+   height: 10%;
+   padding: 0;
+    
+}
+.food-details{
+    margin-left: 2%;
+}
+#good-food{
+    flex-direction: column-reverse;
 }
       
 }
