@@ -262,7 +262,7 @@ padding: 16px 40px 16px 40px;
 /* Running part */
 .run-container{
     width:60% ;
-    /* height: 5000px; */
+  
     /* margin: 0 auto; */
     
     background-color: dimgray;
@@ -811,7 +811,7 @@ form {
     .run-container{
         display: grid;
         width: 80%;
-        height: 400px;
+        height: 450px;
     }
     .run-img{
         width: 90%;
