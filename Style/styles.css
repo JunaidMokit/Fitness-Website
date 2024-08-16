@@ -847,6 +847,10 @@ form {
         max-width: 100%;
         
     }
+    .BMI-details{
+        height: 32vh;
+
+    }
     .h-bmi-c{
         margin-right: 40%;
     }
